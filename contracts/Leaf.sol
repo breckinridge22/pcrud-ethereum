@@ -28,7 +28,7 @@ contract Leaf {
   struct Account {
     // corresponds to a stellar public key
     uint public_key;
-    mapping(uint => Balance) balances;
+    mapping(bytes32 => Balance) balances;
   }
 
   modifier onlyOwner(){
@@ -37,12 +37,12 @@ contract Leaf {
  }
 
   function Leaf(){
-    owner = msg.sender()
+    owner = msg.sender;
   }
 
   // create a new Account
   function createAccount(uint _public_key) onlyOwner {
-    Account a = Account(public_key, new Balance[]);
+    Account memory a = Account(_public_key);
     accounts[_public_key] = a;
   }
 
@@ -50,24 +50,23 @@ contract Leaf {
   function addBalanceToAccount(uint _public_key, bytes32 _assetCode, uint256 _amount) onlyOwner {
     Balance memory balance = Balance(_assetCode, _amount);
     // check to make sure Account Id exists in accounts
-    Account a = accounts[_public_key];
-    a.balances[_assetCode] = a;
+    Account storage a = accounts[_public_key];
+    a.balances[_assetCode] = balance;
   }
 
   // updates a given balance for an account
-  function updateBalanceInAccount(uint _public_key, bytes32 _assetCode, _uint _amount) onlyOwner{
-    Account a = accounts[_public_key];
+  function updateBalanceInAccount(uint _public_key, bytes32 _assetCode, uint _amount) onlyOwner{
+    Account storage a = accounts[_public_key];
     Balance memory balance = Balance(_assetCode, _amount);
     a.balances[_assetCode] = balance;
   }
 
   // return the balance of a specific account, assetcode
   function getBalance(uint _public_key, bytes32 _assetCode) onlyOwner returns (Balance){
-    Account a = accounts[_public_key];
+    Account storage a = accounts[_public_key];
     //require(_index <= a.balances.length);
     // require that the access code is in the mapping
     return a.balances[_assetCode];
   }
-
 
 }
