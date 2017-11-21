@@ -11,7 +11,7 @@ pragma solidity ^0.4.13;
 
 contract Leaf {
 
-  address owner;
+  address public owner;
 
   // some sort of list of all the accounts -> key'd by their public key
 
@@ -36,7 +36,7 @@ contract Leaf {
    _;
  }
 
-  function Leaf(){
+  function Leaf() {
     owner = msg.sender;
   }
 
