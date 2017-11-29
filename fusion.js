@@ -19,7 +19,7 @@ Leaf.setProvider(web3.currentProvider)
 var owner = web3.eth.accounts[0]
 
 leaf = Leaf.new({from: owner, gas: 1555000})
-leaf.createAccount(1)
+leaf.createAccount.call(1, { from: owner });
 
 // Leaf.deployed().then(function(instance) {
 //   return instance.createAccount(1, {from: owner})
