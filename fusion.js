@@ -18,8 +18,17 @@ Leaf.setProvider(web3.currentProvider)
 
 var owner = web3.eth.accounts[0]
 
-leaf = Leaf.new({from: owner, gas: 1555000})
-leaf.createAccount.call(1, { from: owner });
+Leaf.new({from: owner, gas: 1555000}).then(function(instance) {
+  //console.log(instance);
+  leaf = instance
+  leaf.createAccount(1, {from: owner})
+  return leaf.getBalance(1, "XLM", {from: owner})
+}).then(function(result) {
+  // If this callback is called, the transaction was successfully processed.
+  console.log(result)
+}).catch(function(e) {
+  console.log(e)
+})
 
 // Leaf.deployed().then(function(instance) {
 //   return instance.createAccount(1, {from: owner})

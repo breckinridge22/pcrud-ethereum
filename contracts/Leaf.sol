@@ -46,6 +46,7 @@ contract Leaf {
     // add account with lumens loaded
     Account memory a = Account(_public_key);
     accounts[_public_key] = a;
+    addBalanceToAccount(_public_key, "XLM", 31);
   }
 
   // add a balance to an account

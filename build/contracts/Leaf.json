@@ -142,18 +142,18 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x6060604052341561000f57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506105e98061005e6000396000f300606060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806343a7d0a51461007d5780638da5cb5b146100c15780639f671d3c14610116578063a0ca0bba14610146578063cab139151461017f578063ce77a813146101a2575b600080fd5b341561008857600080fd5b6100ab6004808035906020019091908035600019169060200190919050506101db565b6040518082815260200191505060405180910390f35b34156100cc57600080fd5b6100d4610278565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561012157600080fd5b61014460048080359060200190919080356000191690602001909190505061029d565b005b341561015157600080fd5b61017d600480803590602001909190803560001916906020019091908035906020019091905050610344565b005b341561018a57600080fd5b6101a0600480803590602001909190505061041b565b005b34156101ad57600080fd5b6101d96004808035906020019091908035600019169060200190919080359060200190919050506104b5565b005b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561023957600080fd5b60016000858152602001908152602001600020905080600101600084600019166000191681526020019081526020016000206001015491505092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156102fa57600080fd5b600160008481526020019081526020016000209050806001016000836000191660001916815260200190815260200160002060008082016000905560018201600090555050505050565b600061034e61058c565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156103a957600080fd5b60016000868152602001908152602001600020915060408051908101604052808560001916815260200184815250905080826001016000866000191660001916815260200190815260200160002060008201518160000190600019169055602082015181600101559050505050505050565b6104236105a9565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561047e57600080fd5b6020604051908101604052808381525090508060016000848152602001908152602001600020600082015181600001559050505050565b6104bd61058c565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561051a57600080fd5b60408051908101604052808560001916815260200184815250915060016000868152602001908152602001600020905081816001016000866000191660001916815260200190815260200160002060008201518160000190600019169055602082015181600101559050505050505050565b604080519081016040528060008019168152602001600081525090565b6020604051908101604052806000815250905600a165627a7a72305820a3878a032870bd1323e8182e8d703abe6141dcbbb401b6943ff1061714ad8da50029",
-  "deployedBytecode": "0x606060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806343a7d0a51461007d5780638da5cb5b146100c15780639f671d3c14610116578063a0ca0bba14610146578063cab139151461017f578063ce77a813146101a2575b600080fd5b341561008857600080fd5b6100ab6004808035906020019091908035600019169060200190919050506101db565b6040518082815260200191505060405180910390f35b34156100cc57600080fd5b6100d4610278565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561012157600080fd5b61014460048080359060200190919080356000191690602001909190505061029d565b005b341561015157600080fd5b61017d600480803590602001909190803560001916906020019091908035906020019091905050610344565b005b341561018a57600080fd5b6101a0600480803590602001909190505061041b565b005b34156101ad57600080fd5b6101d96004808035906020019091908035600019169060200190919080359060200190919050506104b5565b005b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561023957600080fd5b60016000858152602001908152602001600020905080600101600084600019166000191681526020019081526020016000206001015491505092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156102fa57600080fd5b600160008481526020019081526020016000209050806001016000836000191660001916815260200190815260200160002060008082016000905560018201600090555050505050565b600061034e61058c565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156103a957600080fd5b60016000868152602001908152602001600020915060408051908101604052808560001916815260200184815250905080826001016000866000191660001916815260200190815260200160002060008201518160000190600019169055602082015181600101559050505050505050565b6104236105a9565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561047e57600080fd5b6020604051908101604052808381525090508060016000848152602001908152602001600020600082015181600001559050505050565b6104bd61058c565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561051a57600080fd5b60408051908101604052808560001916815260200184815250915060016000868152602001908152602001600020905081816001016000866000191660001916815260200190815260200160002060008201518160000190600019169055602082015181600101559050505050505050565b604080519081016040528060008019168152602001600081525090565b6020604051908101604052806000815250905600a165627a7a72305820a3878a032870bd1323e8182e8d703abe6141dcbbb401b6943ff1061714ad8da50029",
-  "sourceMap": "281:2087:0:-;;;857:45;;;;;;;;887:10;879:5;;:18;;;;;;;;;;;;;;;;;;281:2087;;;;;;",
-  "deployedSourceMap": "281:2087:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1810:277;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;300:20;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2091:172;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1504:245;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;982:135;;;;;;;;;;;;;;;;;;;;;;;;;;1154:302;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1810:277;1890:4;1901:17;828:5;;;;;;;;;;;814:19;;:10;:19;;;;810:33;;;835:8;;;810:33;1921:8;:21;1930:11;1921:21;;;;;;;;;;;1901:41;;2053:1;:10;;:22;2064:10;2053:22;;;;;;;;;;;;;;;;;:29;;;2046:36;;1810:277;;;;;:::o;300:20::-;;;;;;;;;;;;;:::o;2091:172::-;2182:17;828:5;;;;;;;;;;;814:19;;:10;:19;;;;810:33;;;835:8;;;810:33;2202:8;:21;2211:11;2202:21;;;;;;;;;;;2182:41;;2236:1;:10;;:22;2247:10;2236:22;;;;;;;;;;;;;;;;;;2229:29;;;;;;;;;;;;;;2091:172;;;:::o;1504:245::-;1606:17;1653:22;;:::i;:::-;828:5;;;;;;;;;;;814:19;;:10;:19;;;;810:33;;;835:8;;;810:33;1626:8;:21;1635:11;1626:21;;;;;;;;;;;1606:41;;1678:28;;;;;;;;;1686:10;1678:28;;;;;;;1698:7;1678:28;;;1653:53;;1737:7;1712:1;:10;;:22;1723:10;1712:22;;;;;;;;;;;;;;;;;:32;;;;;;;;;;;;;;;;;;;;;;;;1504:245;;;;;:::o;982:135::-;1042:16;;:::i;:::-;828:5;;;;;;;;;;;814:19;;:10;:19;;;;810:33;;;835:8;;;810:33;1061:20;;;;;;;;;1069:11;1061:20;;;1042:39;;1111:1;1087:8;:21;1096:11;1087:21;;;;;;;;;;;:25;;;;;;;;;;;982:135;;:::o;1154:302::-;1257:22;;:::i;:::-;1372:17;828:5;;;;;;;;;;;814:19;;:10;:19;;;;810:33;;;835:8;;;810:33;1282:28;;;;;;;;;1290:10;1282:28;;;;;;;1302:7;1282:28;;;1257:53;;1392:8;:21;1401:11;1392:21;;;;;;;;;;;1372:41;;1444:7;1419:1;:10;;:22;1430:10;1419:22;;;;;;;;;;;;;;;;;:32;;;;;;;;;;;;;;;;;;;;;;;;1154:302;;;;;:::o;281:2087::-;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity ^0.4.13;\n\n// contract functionality\n// contract structure\n// balance structure\n// List of accounts\n// allow a new balance to be added to an account\n// allow a balance to be updated to an account\n// allow a balance to be accessed by an account\n// create an account\n\ncontract Leaf {\n\n  address public owner;\n\n  // some sort of list of all the accounts -> key'd by their public key\n\n  mapping(uint => Account) accounts;\n\n  // represents a stellar balance\n  struct Balance {\n    bytes32 assetCode;\n    // can you have a negative balance in stellar?\n    uint amount;\n  }\n\n  // an Account which contains a public key and a list of balances\n  struct Account {\n    // corresponds to a stellar public key\n    uint256 public_key;\n    mapping(bytes32 => Balance) balances;\n  }\n\n  modifier onlyOwner(){\n   if (msg.sender != owner) revert();\n   _;\n }\n\n  function Leaf() {\n    owner = msg.sender;\n  }\n\n  // create a new Account\n  // but if account already exists throw an error\n  function createAccount(uint256 _public_key) onlyOwner {\n    Account memory a = Account(_public_key);\n    accounts[_public_key] = a;\n  }\n\n  // add a balance to an account\n  function addBalanceToAccount(uint256 _public_key, bytes32 _assetCode, uint256 _amount) onlyOwner {\n    Balance memory balance = Balance(_assetCode, _amount);\n    // check to make sure Account Id exists in accounts\n    Account storage a = accounts[_public_key];\n    a.balances[_assetCode] = balance;\n  }\n\n  // updates a given balance for an account\n  function updateBalanceInAccount(uint256 _public_key, bytes32 _assetCode, uint _amount) onlyOwner{\n    Account storage a = accounts[_public_key];\n    Balance memory balance = Balance(_assetCode, _amount);\n    a.balances[_assetCode] = balance;\n  }\n\n  // return the balance of a specific account, assetcode\n  function getBalance(uint256 _public_key, bytes32 _assetCode) onlyOwner returns (uint){\n    Account storage a = accounts[_public_key];\n    //require(_index <= a.balances.length);\n    // require that the access code is in the mapping\n    return a.balances[_assetCode].amount;\n  }\n\n  function removeBalanceFromAccount(uint256 _public_key, bytes32 _assetCode) onlyOwner {\n    Account storage a = accounts[_public_key];\n    delete a.balances[_assetCode];\n  }\n\n  /*function deleteAccount(uint256 _public_key) onlyOwner {\n      delete accounts[_public_key];\n  }*/\n}\n",
+  "bytecode": "0x6060604052341561000f57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506106158061005e6000396000f300606060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806343a7d0a51461007d5780638da5cb5b146100c15780639f671d3c14610116578063a0ca0bba14610146578063cab139151461017f578063ce77a813146101a2575b600080fd5b341561008857600080fd5b6100ab6004808035906020019091908035600019169060200190919050506101db565b6040518082815260200191505060405180910390f35b34156100cc57600080fd5b6100d4610278565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561012157600080fd5b61014460048080359060200190919080356000191690602001909190505061029d565b005b341561015157600080fd5b61017d600480803590602001909190803560001916906020019091908035906020019091905050610344565b005b341561018a57600080fd5b6101a0600480803590602001909190505061041b565b005b34156101ad57600080fd5b6101d96004808035906020019091908035600019169060200190919080359060200190919050506104e1565b005b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561023957600080fd5b60016000858152602001908152602001600020905080600101600084600019166000191681526020019081526020016000206001015491505092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156102fa57600080fd5b600160008481526020019081526020016000209050806001016000836000191660001916815260200190815260200160002060008082016000905560018201600090555050505050565b600061034e6105b8565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156103a957600080fd5b60016000868152602001908152602001600020915060408051908101604052808560001916815260200184815250905080826001016000866000191660001916815260200190815260200160002060008201518160000190600019169055602082015181600101559050505050505050565b6104236105d5565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561047e57600080fd5b6020604051908101604052808381525090508060016000848152602001908152602001600020600082015181600001559050506104dd827f584c4d0000000000000000000000000000000000000000000000000000000000601f6104e1565b5050565b6104e96105b8565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561054657600080fd5b60408051908101604052808560001916815260200184815250915060016000868152602001908152602001600020905081816001016000866000191660001916815260200190815260200160002060008201518160000190600019169055602082015181600101559050505050505050565b604080519081016040528060008019168152602001600081525090565b6020604051908101604052806000815250905600a165627a7a72305820b3d67faeec79ae3b7492b63bbae80823cc1cf7ab0df258d8305952391b43aef10029",
+  "deployedBytecode": "0x606060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806343a7d0a51461007d5780638da5cb5b146100c15780639f671d3c14610116578063a0ca0bba14610146578063cab139151461017f578063ce77a813146101a2575b600080fd5b341561008857600080fd5b6100ab6004808035906020019091908035600019169060200190919050506101db565b6040518082815260200191505060405180910390f35b34156100cc57600080fd5b6100d4610278565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561012157600080fd5b61014460048080359060200190919080356000191690602001909190505061029d565b005b341561015157600080fd5b61017d600480803590602001909190803560001916906020019091908035906020019091905050610344565b005b341561018a57600080fd5b6101a0600480803590602001909190505061041b565b005b34156101ad57600080fd5b6101d96004808035906020019091908035600019169060200190919080359060200190919050506104e1565b005b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561023957600080fd5b60016000858152602001908152602001600020905080600101600084600019166000191681526020019081526020016000206001015491505092915050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156102fa57600080fd5b600160008481526020019081526020016000209050806001016000836000191660001916815260200190815260200160002060008082016000905560018201600090555050505050565b600061034e6105b8565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415156103a957600080fd5b60016000868152602001908152602001600020915060408051908101604052808560001916815260200184815250905080826001016000866000191660001916815260200190815260200160002060008201518160000190600019169055602082015181600101559050505050505050565b6104236105d5565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561047e57600080fd5b6020604051908101604052808381525090508060016000848152602001908152602001600020600082015181600001559050506104dd827f584c4d0000000000000000000000000000000000000000000000000000000000601f6104e1565b5050565b6104e96105b8565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561054657600080fd5b60408051908101604052808560001916815260200184815250915060016000868152602001908152602001600020905081816001016000866000191660001916815260200190815260200160002060008201518160000190600019169055602082015181600101559050505050505050565b604080519081016040528060008019168152602001600081525090565b6020604051908101604052806000815250905600a165627a7a72305820b3d67faeec79ae3b7492b63bbae80823cc1cf7ab0df258d8305952391b43aef10029",
+  "sourceMap": "281:2174:0:-;;;857:45;;;;;;;;887:10;879:5;;:18;;;;;;;;;;;;;;;;;;281:2174;;;;;;",
+  "deployedSourceMap": "281:2174:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1897:277;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;300:20;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2178:172;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1591:245;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;982:222;;;;;;;;;;;;;;;;;;;;;;;;;;1241:302;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1897:277;1977:4;1988:17;828:5;;;;;;;;;;;814:19;;:10;:19;;;;810:33;;;835:8;;;810:33;2008:8;:21;2017:11;2008:21;;;;;;;;;;;1988:41;;2140:1;:10;;:22;2151:10;2140:22;;;;;;;;;;;;;;;;;:29;;;2133:36;;1897:277;;;;;:::o;300:20::-;;;;;;;;;;;;;:::o;2178:172::-;2269:17;828:5;;;;;;;;;;;814:19;;:10;:19;;;;810:33;;;835:8;;;810:33;2289:8;:21;2298:11;2289:21;;;;;;;;;;;2269:41;;2323:1;:10;;:22;2334:10;2323:22;;;;;;;;;;;;;;;;;;2316:29;;;;;;;;;;;;;;2178:172;;;:::o;1591:245::-;1693:17;1740:22;;:::i;:::-;828:5;;;;;;;;;;;814:19;;:10;:19;;;;810:33;;;835:8;;;810:33;1713:8;:21;1722:11;1713:21;;;;;;;;;;;1693:41;;1765:28;;;;;;;;;1773:10;1765:28;;;;;;;1785:7;1765:28;;;1740:53;;1824:7;1799:1;:10;;:22;1810:10;1799:22;;;;;;;;;;;;;;;;;:32;;;;;;;;;;;;;;;;;;;;;;;;1591:245;;;;;:::o;982:222::-;1080:16;;:::i;:::-;828:5;;;;;;;;;;;814:19;;:10;:19;;;;810:33;;;835:8;;;810:33;1099:20;;;;;;;;;1107:11;1099:20;;;1080:39;;1149:1;1125:8;:21;1134:11;1125:21;;;;;;;;;;;:25;;;;;;;;;;;1156:43;1176:11;1156:43;1196:2;1156:19;:43::i;:::-;982:222;;:::o;1241:302::-;1344:22;;:::i;:::-;1459:17;828:5;;;;;;;;;;;814:19;;:10;:19;;;;810:33;;;835:8;;;810:33;1369:28;;;;;;;;;1377:10;1369:28;;;;;;;1389:7;1369:28;;;1344:53;;1479:8;:21;1488:11;1479:21;;;;;;;;;;;1459:41;;1531:7;1506:1;:10;;:22;1517:10;1506:22;;;;;;;;;;;;;;;;;:32;;;;;;;;;;;;;;;;;;;;;;;;1241:302;;;;;:::o;281:2174::-;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.13;\n\n// contract functionality\n// contract structure\n// balance structure\n// List of accounts\n// allow a new balance to be added to an account\n// allow a balance to be updated to an account\n// allow a balance to be accessed by an account\n// create an account\n\ncontract Leaf {\n\n  address public owner;\n\n  // some sort of list of all the accounts -> key'd by their public key\n\n  mapping(uint => Account) accounts;\n\n  // represents a stellar balance\n  struct Balance {\n    bytes32 assetCode;\n    // can you have a negative balance in stellar?\n    uint amount;\n  }\n\n  // an Account which contains a public key and a list of balances\n  struct Account {\n    // corresponds to a stellar public key\n    uint256 public_key;\n    mapping(bytes32 => Balance) balances;\n  }\n\n  modifier onlyOwner(){\n   if (msg.sender != owner) revert();\n   _;\n }\n\n  function Leaf() {\n    owner = msg.sender;\n  }\n\n  // create a new Account\n  // but if account already exists throw an error\n  function createAccount(uint256 _public_key) onlyOwner {\n    // add account with lumens loaded\n    Account memory a = Account(_public_key);\n    accounts[_public_key] = a;\n    addBalanceToAccount(_public_key, \"XLM\", 31);\n  }\n\n  // add a balance to an account\n  function addBalanceToAccount(uint256 _public_key, bytes32 _assetCode, uint256 _amount) onlyOwner {\n    Balance memory balance = Balance(_assetCode, _amount);\n    // check to make sure Account Id exists in accounts\n    Account storage a = accounts[_public_key];\n    a.balances[_assetCode] = balance;\n  }\n\n  // updates a given balance for an account\n  function updateBalanceInAccount(uint256 _public_key, bytes32 _assetCode, uint _amount) onlyOwner{\n    Account storage a = accounts[_public_key];\n    Balance memory balance = Balance(_assetCode, _amount);\n    a.balances[_assetCode] = balance;\n  }\n\n  // return the balance of a specific account, assetcode\n  function getBalance(uint256 _public_key, bytes32 _assetCode) onlyOwner returns (uint){\n    Account storage a = accounts[_public_key];\n    //require(_index <= a.balances.length);\n    // require that the access code is in the mapping\n    return a.balances[_assetCode].amount;\n  }\n\n  function removeBalanceFromAccount(uint256 _public_key, bytes32 _assetCode) onlyOwner {\n    Account storage a = accounts[_public_key];\n    delete a.balances[_assetCode];\n  }\n\n  /*function deleteAccount(uint256 _public_key) onlyOwner {\n      delete accounts[_public_key];\n  }*/\n}\n",
   "sourcePath": "/Users/BreckStodghill/workspace/leaf/pcrud-ethereum/contracts/Leaf.sol",
   "ast": {
     "attributes": {
       "absolutePath": "/Users/BreckStodghill/workspace/leaf/pcrud-ethereum/contracts/Leaf.sol",
       "exportedSymbols": {
         "Leaf": [
-          173
+          179
         ]
       }
     },
@@ -183,17 +183,17 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            173
+            179
           ],
           "name": "Leaf",
-          "scope": 174
+          "scope": 180
         },
         "children": [
           {
             "attributes": {
               "constant": false,
               "name": "owner",
-              "scope": 173,
+              "scope": 179,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "address",
@@ -219,7 +219,7 @@
             "attributes": {
               "constant": false,
               "name": "accounts",
-              "scope": 173,
+              "scope": 179,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "mapping(uint256 => struct Leaf.Account storage ref)",
@@ -266,7 +266,7 @@
             "attributes": {
               "canonicalName": "Leaf.Balance",
               "name": "Balance",
-              "scope": 173,
+              "scope": 179,
               "visibility": "public"
             },
             "children": [
@@ -331,7 +331,7 @@
             "attributes": {
               "canonicalName": "Leaf.Account",
               "name": "Account",
-              "scope": 173,
+              "scope": 179,
               "visibility": "public"
             },
             "children": [
@@ -470,7 +470,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 185,
+                                  "referencedDeclaration": 191,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -530,7 +530,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 189,
+                                  "referencedDeclaration": 195,
                                   "type": "function () pure",
                                   "value": "revert"
                                 },
@@ -578,7 +578,7 @@
               ],
               "name": "Leaf",
               "payable": false,
-              "scope": 173,
+              "scope": 179,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -653,7 +653,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 185,
+                                  "referencedDeclaration": 191,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -693,7 +693,7 @@
               "isConstructor": false,
               "name": "createAccount",
               "payable": false,
-              "scope": 173,
+              "scope": 179,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -705,7 +705,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_public_key",
-                      "scope": 60,
+                      "scope": 66,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -782,7 +782,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "a",
-                          "scope": 60,
+                          "scope": 66,
                           "stateVariable": false,
                           "storageLocation": "memory",
                           "type": "struct Leaf.Account memory",
@@ -799,12 +799,12 @@
                             },
                             "id": 47,
                             "name": "UserDefinedTypeName",
-                            "src": "1042:7:0"
+                            "src": "1080:7:0"
                           }
                         ],
                         "id": 48,
                         "name": "VariableDeclaration",
-                        "src": "1042:16:0"
+                        "src": "1080:16:0"
                       },
                       {
                         "attributes": {
@@ -838,7 +838,7 @@
                             },
                             "id": 49,
                             "name": "Identifier",
-                            "src": "1061:7:0"
+                            "src": "1099:7:0"
                           },
                           {
                             "attributes": {
@@ -852,17 +852,17 @@
                             },
                             "id": 50,
                             "name": "Identifier",
-                            "src": "1069:11:0"
+                            "src": "1107:11:0"
                           }
                         ],
                         "id": 51,
                         "name": "FunctionCall",
-                        "src": "1061:20:0"
+                        "src": "1099:20:0"
                       }
                     ],
                     "id": 52,
                     "name": "VariableDeclarationStatement",
-                    "src": "1042:39:0"
+                    "src": "1080:39:0"
                   },
                   {
                     "children": [
@@ -899,7 +899,7 @@
                                 },
                                 "id": 53,
                                 "name": "Identifier",
-                                "src": "1087:8:0"
+                                "src": "1125:8:0"
                               },
                               {
                                 "attributes": {
@@ -913,12 +913,12 @@
                                 },
                                 "id": 54,
                                 "name": "Identifier",
-                                "src": "1096:11:0"
+                                "src": "1134:11:0"
                               }
                             ],
                             "id": 55,
                             "name": "IndexAccess",
-                            "src": "1087:21:0"
+                            "src": "1125:21:0"
                           },
                           {
                             "attributes": {
@@ -932,27 +932,129 @@
                             },
                             "id": 56,
                             "name": "Identifier",
-                            "src": "1111:1:0"
+                            "src": "1149:1:0"
                           }
                         ],
                         "id": 57,
                         "name": "Assignment",
-                        "src": "1087:25:0"
+                        "src": "1125:25:0"
                       }
                     ],
                     "id": 58,
                     "name": "ExpressionStatement",
-                    "src": "1087:25:0"
+                    "src": "1125:25:0"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "isStructConstructorCall": false,
+                          "lValueRequested": false,
+                          "names": [
+                            null
+                          ],
+                          "type": "tuple()",
+                          "type_conversion": false
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_uint256",
+                                  "typeString": "uint256"
+                                },
+                                {
+                                  "typeIdentifier": "t_stringliteral_e2a980942fbdfd44079147a5a5208ac70ec831ef35949911874ba8494d9973b7",
+                                  "typeString": "literal_string \"XLM\""
+                                },
+                                {
+                                  "typeIdentifier": "t_rational_31_by_1",
+                                  "typeString": "int_const 31"
+                                }
+                              ],
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 99,
+                              "type": "function (uint256,bytes32,uint256)",
+                              "value": "addBalanceToAccount"
+                            },
+                            "id": 59,
+                            "name": "Identifier",
+                            "src": "1156:19:0"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 42,
+                              "type": "uint256",
+                              "value": "_public_key"
+                            },
+                            "id": 60,
+                            "name": "Identifier",
+                            "src": "1176:11:0"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "hexvalue": "584c4d",
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "subdenomination": null,
+                              "token": "string",
+                              "type": "literal_string \"XLM\"",
+                              "value": "XLM"
+                            },
+                            "id": 61,
+                            "name": "Literal",
+                            "src": "1189:5:0"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "hexvalue": "3331",
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "subdenomination": null,
+                              "token": "number",
+                              "type": "int_const 31",
+                              "value": "31"
+                            },
+                            "id": 62,
+                            "name": "Literal",
+                            "src": "1196:2:0"
+                          }
+                        ],
+                        "id": 63,
+                        "name": "FunctionCall",
+                        "src": "1156:43:0"
+                      }
+                    ],
+                    "id": 64,
+                    "name": "ExpressionStatement",
+                    "src": "1156:43:0"
                   }
                 ],
-                "id": 59,
+                "id": 65,
                 "name": "Block",
-                "src": "1036:81:0"
+                "src": "1036:168:0"
               }
             ],
-            "id": 60,
+            "id": 66,
             "name": "FunctionDefinition",
-            "src": "982:135:0"
+            "src": "982:222:0"
           },
           {
             "attributes": {
@@ -961,7 +1063,7 @@
               "isConstructor": false,
               "name": "addBalanceToAccount",
               "payable": false,
-              "scope": 173,
+              "scope": 179,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -973,7 +1075,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_public_key",
-                      "scope": 93,
+                      "scope": 99,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -986,20 +1088,20 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 61,
+                        "id": 67,
                         "name": "ElementaryTypeName",
-                        "src": "1183:7:0"
+                        "src": "1270:7:0"
                       }
                     ],
-                    "id": 62,
+                    "id": 68,
                     "name": "VariableDeclaration",
-                    "src": "1183:19:0"
+                    "src": "1270:19:0"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "_assetCode",
-                      "scope": 93,
+                      "scope": 99,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -1012,20 +1114,20 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 63,
+                        "id": 69,
                         "name": "ElementaryTypeName",
-                        "src": "1204:7:0"
+                        "src": "1291:7:0"
                       }
                     ],
-                    "id": 64,
+                    "id": 70,
                     "name": "VariableDeclaration",
-                    "src": "1204:18:0"
+                    "src": "1291:18:0"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "_amount",
-                      "scope": 93,
+                      "scope": 99,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -1038,19 +1140,19 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 65,
+                        "id": 71,
                         "name": "ElementaryTypeName",
-                        "src": "1224:7:0"
+                        "src": "1311:7:0"
                       }
                     ],
-                    "id": 66,
+                    "id": 72,
                     "name": "VariableDeclaration",
-                    "src": "1224:15:0"
+                    "src": "1311:15:0"
                   }
                 ],
-                "id": 67,
+                "id": 73,
                 "name": "ParameterList",
-                "src": "1182:58:0"
+                "src": "1269:58:0"
               },
               {
                 "attributes": {
@@ -1059,9 +1161,9 @@
                   ]
                 },
                 "children": [],
-                "id": 70,
+                "id": 76,
                 "name": "ParameterList",
-                "src": "1251:0:0"
+                "src": "1338:0:0"
               },
               {
                 "attributes": {
@@ -1080,21 +1182,21 @@
                       "type": "modifier ()",
                       "value": "onlyOwner"
                     },
-                    "id": 68,
+                    "id": 74,
                     "name": "Identifier",
-                    "src": "1241:9:0"
+                    "src": "1328:9:0"
                   }
                 ],
-                "id": 69,
+                "id": 75,
                 "name": "ModifierInvocation",
-                "src": "1241:9:0"
+                "src": "1328:9:0"
               },
               {
                 "children": [
                   {
                     "attributes": {
                       "assignments": [
-                        72
+                        78
                       ]
                     },
                     "children": [
@@ -1102,7 +1204,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "balance",
-                          "scope": 93,
+                          "scope": 99,
                           "stateVariable": false,
                           "storageLocation": "memory",
                           "type": "struct Leaf.Balance memory",
@@ -1117,14 +1219,14 @@
                               "referencedDeclaration": 12,
                               "type": "struct Leaf.Balance storage pointer"
                             },
-                            "id": 71,
+                            "id": 77,
                             "name": "UserDefinedTypeName",
-                            "src": "1257:7:0"
+                            "src": "1344:7:0"
                           }
                         ],
-                        "id": 72,
+                        "id": 78,
                         "name": "VariableDeclaration",
-                        "src": "1257:22:0"
+                        "src": "1344:22:0"
                       },
                       {
                         "attributes": {
@@ -1160,9 +1262,9 @@
                               "type": "type(struct Leaf.Balance storage pointer)",
                               "value": "Balance"
                             },
-                            "id": 73,
+                            "id": 79,
                             "name": "Identifier",
-                            "src": "1282:7:0"
+                            "src": "1369:7:0"
                           },
                           {
                             "attributes": {
@@ -1170,13 +1272,13 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 64,
+                              "referencedDeclaration": 70,
                               "type": "bytes32",
                               "value": "_assetCode"
                             },
-                            "id": 74,
+                            "id": 80,
                             "name": "Identifier",
-                            "src": "1290:10:0"
+                            "src": "1377:10:0"
                           },
                           {
                             "attributes": {
@@ -1184,28 +1286,28 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 66,
+                              "referencedDeclaration": 72,
                               "type": "uint256",
                               "value": "_amount"
                             },
-                            "id": 75,
+                            "id": 81,
                             "name": "Identifier",
-                            "src": "1302:7:0"
+                            "src": "1389:7:0"
                           }
                         ],
-                        "id": 76,
+                        "id": 82,
                         "name": "FunctionCall",
-                        "src": "1282:28:0"
+                        "src": "1369:28:0"
                       }
                     ],
-                    "id": 77,
+                    "id": 83,
                     "name": "VariableDeclarationStatement",
-                    "src": "1257:53:0"
+                    "src": "1344:53:0"
                   },
                   {
                     "attributes": {
                       "assignments": [
-                        79
+                        85
                       ]
                     },
                     "children": [
@@ -1213,7 +1315,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "a",
-                          "scope": 93,
+                          "scope": 99,
                           "stateVariable": false,
                           "storageLocation": "storage",
                           "type": "struct Leaf.Account storage pointer",
@@ -1228,14 +1330,14 @@
                               "referencedDeclaration": 19,
                               "type": "struct Leaf.Account storage pointer"
                             },
-                            "id": 78,
+                            "id": 84,
                             "name": "UserDefinedTypeName",
-                            "src": "1372:7:0"
+                            "src": "1459:7:0"
                           }
                         ],
-                        "id": 79,
+                        "id": 85,
                         "name": "VariableDeclaration",
-                        "src": "1372:17:0"
+                        "src": "1459:17:0"
                       },
                       {
                         "attributes": {
@@ -1257,9 +1359,9 @@
                               "type": "mapping(uint256 => struct Leaf.Account storage ref)",
                               "value": "accounts"
                             },
-                            "id": 80,
+                            "id": 86,
                             "name": "Identifier",
-                            "src": "1392:8:0"
+                            "src": "1479:8:0"
                           },
                           {
                             "attributes": {
@@ -1267,23 +1369,23 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 62,
+                              "referencedDeclaration": 68,
                               "type": "uint256",
                               "value": "_public_key"
                             },
-                            "id": 81,
+                            "id": 87,
                             "name": "Identifier",
-                            "src": "1401:11:0"
+                            "src": "1488:11:0"
                           }
                         ],
-                        "id": 82,
+                        "id": 88,
                         "name": "IndexAccess",
-                        "src": "1392:21:0"
+                        "src": "1479:21:0"
                       }
                     ],
-                    "id": 83,
+                    "id": 89,
                     "name": "VariableDeclarationStatement",
-                    "src": "1372:41:0"
+                    "src": "1459:41:0"
                   },
                   {
                     "children": [
@@ -1326,18 +1428,18 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 79,
+                                      "referencedDeclaration": 85,
                                       "type": "struct Leaf.Account storage pointer",
                                       "value": "a"
                                     },
-                                    "id": 84,
+                                    "id": 90,
                                     "name": "Identifier",
-                                    "src": "1419:1:0"
+                                    "src": "1506:1:0"
                                   }
                                 ],
-                                "id": 87,
+                                "id": 93,
                                 "name": "MemberAccess",
-                                "src": "1419:10:0"
+                                "src": "1506:10:0"
                               },
                               {
                                 "attributes": {
@@ -1345,18 +1447,18 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 64,
+                                  "referencedDeclaration": 70,
                                   "type": "bytes32",
                                   "value": "_assetCode"
                                 },
-                                "id": 86,
+                                "id": 92,
                                 "name": "Identifier",
-                                "src": "1430:10:0"
+                                "src": "1517:10:0"
                               }
                             ],
-                            "id": 88,
+                            "id": 94,
                             "name": "IndexAccess",
-                            "src": "1419:22:0"
+                            "src": "1506:22:0"
                           },
                           {
                             "attributes": {
@@ -1364,33 +1466,33 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 72,
+                              "referencedDeclaration": 78,
                               "type": "struct Leaf.Balance memory",
                               "value": "balance"
                             },
-                            "id": 89,
+                            "id": 95,
                             "name": "Identifier",
-                            "src": "1444:7:0"
+                            "src": "1531:7:0"
                           }
                         ],
-                        "id": 90,
+                        "id": 96,
                         "name": "Assignment",
-                        "src": "1419:32:0"
+                        "src": "1506:32:0"
                       }
                     ],
-                    "id": 91,
+                    "id": 97,
                     "name": "ExpressionStatement",
-                    "src": "1419:32:0"
+                    "src": "1506:32:0"
                   }
                 ],
-                "id": 92,
+                "id": 98,
                 "name": "Block",
-                "src": "1251:205:0"
+                "src": "1338:205:0"
               }
             ],
-            "id": 93,
+            "id": 99,
             "name": "FunctionDefinition",
-            "src": "1154:302:0"
+            "src": "1241:302:0"
           },
           {
             "attributes": {
@@ -1399,7 +1501,7 @@
               "isConstructor": false,
               "name": "updateBalanceInAccount",
               "payable": false,
-              "scope": 173,
+              "scope": 179,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -1411,7 +1513,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_public_key",
-                      "scope": 126,
+                      "scope": 132,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -1424,20 +1526,20 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 94,
+                        "id": 100,
                         "name": "ElementaryTypeName",
-                        "src": "1536:7:0"
+                        "src": "1623:7:0"
                       }
                     ],
-                    "id": 95,
+                    "id": 101,
                     "name": "VariableDeclaration",
-                    "src": "1536:19:0"
+                    "src": "1623:19:0"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "_assetCode",
-                      "scope": 126,
+                      "scope": 132,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -1450,20 +1552,20 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 96,
+                        "id": 102,
                         "name": "ElementaryTypeName",
-                        "src": "1557:7:0"
+                        "src": "1644:7:0"
                       }
                     ],
-                    "id": 97,
+                    "id": 103,
                     "name": "VariableDeclaration",
-                    "src": "1557:18:0"
+                    "src": "1644:18:0"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "_amount",
-                      "scope": 126,
+                      "scope": 132,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -1476,19 +1578,19 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 98,
+                        "id": 104,
                         "name": "ElementaryTypeName",
-                        "src": "1577:4:0"
+                        "src": "1664:4:0"
                       }
                     ],
-                    "id": 99,
+                    "id": 105,
                     "name": "VariableDeclaration",
-                    "src": "1577:12:0"
+                    "src": "1664:12:0"
                   }
                 ],
-                "id": 100,
+                "id": 106,
                 "name": "ParameterList",
-                "src": "1535:55:0"
+                "src": "1622:55:0"
               },
               {
                 "attributes": {
@@ -1497,9 +1599,9 @@
                   ]
                 },
                 "children": [],
-                "id": 103,
+                "id": 109,
                 "name": "ParameterList",
-                "src": "1600:0:0"
+                "src": "1687:0:0"
               },
               {
                 "attributes": {
@@ -1518,100 +1620,17 @@
                       "type": "modifier ()",
                       "value": "onlyOwner"
                     },
-                    "id": 101,
+                    "id": 107,
                     "name": "Identifier",
-                    "src": "1591:9:0"
+                    "src": "1678:9:0"
                   }
                 ],
-                "id": 102,
+                "id": 108,
                 "name": "ModifierInvocation",
-                "src": "1591:9:0"
+                "src": "1678:9:0"
               },
               {
                 "children": [
-                  {
-                    "attributes": {
-                      "assignments": [
-                        105
-                      ]
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "constant": false,
-                          "name": "a",
-                          "scope": 126,
-                          "stateVariable": false,
-                          "storageLocation": "storage",
-                          "type": "struct Leaf.Account storage pointer",
-                          "value": null,
-                          "visibility": "internal"
-                        },
-                        "children": [
-                          {
-                            "attributes": {
-                              "contractScope": null,
-                              "name": "Account",
-                              "referencedDeclaration": 19,
-                              "type": "struct Leaf.Account storage pointer"
-                            },
-                            "id": 104,
-                            "name": "UserDefinedTypeName",
-                            "src": "1606:7:0"
-                          }
-                        ],
-                        "id": 105,
-                        "name": "VariableDeclaration",
-                        "src": "1606:17:0"
-                      },
-                      {
-                        "attributes": {
-                          "argumentTypes": null,
-                          "isConstant": false,
-                          "isLValue": true,
-                          "isPure": false,
-                          "lValueRequested": false,
-                          "type": "struct Leaf.Account storage ref"
-                        },
-                        "children": [
-                          {
-                            "attributes": {
-                              "argumentTypes": null,
-                              "overloadedDeclarations": [
-                                null
-                              ],
-                              "referencedDeclaration": 7,
-                              "type": "mapping(uint256 => struct Leaf.Account storage ref)",
-                              "value": "accounts"
-                            },
-                            "id": 106,
-                            "name": "Identifier",
-                            "src": "1626:8:0"
-                          },
-                          {
-                            "attributes": {
-                              "argumentTypes": null,
-                              "overloadedDeclarations": [
-                                null
-                              ],
-                              "referencedDeclaration": 95,
-                              "type": "uint256",
-                              "value": "_public_key"
-                            },
-                            "id": 107,
-                            "name": "Identifier",
-                            "src": "1635:11:0"
-                          }
-                        ],
-                        "id": 108,
-                        "name": "IndexAccess",
-                        "src": "1626:21:0"
-                      }
-                    ],
-                    "id": 109,
-                    "name": "VariableDeclarationStatement",
-                    "src": "1606:41:0"
-                  },
                   {
                     "attributes": {
                       "assignments": [
@@ -1622,8 +1641,91 @@
                       {
                         "attributes": {
                           "constant": false,
+                          "name": "a",
+                          "scope": 132,
+                          "stateVariable": false,
+                          "storageLocation": "storage",
+                          "type": "struct Leaf.Account storage pointer",
+                          "value": null,
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "contractScope": null,
+                              "name": "Account",
+                              "referencedDeclaration": 19,
+                              "type": "struct Leaf.Account storage pointer"
+                            },
+                            "id": 110,
+                            "name": "UserDefinedTypeName",
+                            "src": "1693:7:0"
+                          }
+                        ],
+                        "id": 111,
+                        "name": "VariableDeclaration",
+                        "src": "1693:17:0"
+                      },
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "type": "struct Leaf.Account storage ref"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 7,
+                              "type": "mapping(uint256 => struct Leaf.Account storage ref)",
+                              "value": "accounts"
+                            },
+                            "id": 112,
+                            "name": "Identifier",
+                            "src": "1713:8:0"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 101,
+                              "type": "uint256",
+                              "value": "_public_key"
+                            },
+                            "id": 113,
+                            "name": "Identifier",
+                            "src": "1722:11:0"
+                          }
+                        ],
+                        "id": 114,
+                        "name": "IndexAccess",
+                        "src": "1713:21:0"
+                      }
+                    ],
+                    "id": 115,
+                    "name": "VariableDeclarationStatement",
+                    "src": "1693:41:0"
+                  },
+                  {
+                    "attributes": {
+                      "assignments": [
+                        117
+                      ]
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
                           "name": "balance",
-                          "scope": 126,
+                          "scope": 132,
                           "stateVariable": false,
                           "storageLocation": "memory",
                           "type": "struct Leaf.Balance memory",
@@ -1638,14 +1740,14 @@
                               "referencedDeclaration": 12,
                               "type": "struct Leaf.Balance storage pointer"
                             },
-                            "id": 110,
+                            "id": 116,
                             "name": "UserDefinedTypeName",
-                            "src": "1653:7:0"
+                            "src": "1740:7:0"
                           }
                         ],
-                        "id": 111,
+                        "id": 117,
                         "name": "VariableDeclaration",
-                        "src": "1653:22:0"
+                        "src": "1740:22:0"
                       },
                       {
                         "attributes": {
@@ -1681,9 +1783,9 @@
                               "type": "type(struct Leaf.Balance storage pointer)",
                               "value": "Balance"
                             },
-                            "id": 112,
+                            "id": 118,
                             "name": "Identifier",
-                            "src": "1678:7:0"
+                            "src": "1765:7:0"
                           },
                           {
                             "attributes": {
@@ -1691,13 +1793,13 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 97,
+                              "referencedDeclaration": 103,
                               "type": "bytes32",
                               "value": "_assetCode"
                             },
-                            "id": 113,
+                            "id": 119,
                             "name": "Identifier",
-                            "src": "1686:10:0"
+                            "src": "1773:10:0"
                           },
                           {
                             "attributes": {
@@ -1705,23 +1807,23 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 99,
+                              "referencedDeclaration": 105,
                               "type": "uint256",
                               "value": "_amount"
                             },
-                            "id": 114,
+                            "id": 120,
                             "name": "Identifier",
-                            "src": "1698:7:0"
+                            "src": "1785:7:0"
                           }
                         ],
-                        "id": 115,
+                        "id": 121,
                         "name": "FunctionCall",
-                        "src": "1678:28:0"
+                        "src": "1765:28:0"
                       }
                     ],
-                    "id": 116,
+                    "id": 122,
                     "name": "VariableDeclarationStatement",
-                    "src": "1653:53:0"
+                    "src": "1740:53:0"
                   },
                   {
                     "children": [
@@ -1764,18 +1866,18 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 105,
+                                      "referencedDeclaration": 111,
                                       "type": "struct Leaf.Account storage pointer",
                                       "value": "a"
                                     },
-                                    "id": 117,
+                                    "id": 123,
                                     "name": "Identifier",
-                                    "src": "1712:1:0"
+                                    "src": "1799:1:0"
                                   }
                                 ],
-                                "id": 120,
+                                "id": 126,
                                 "name": "MemberAccess",
-                                "src": "1712:10:0"
+                                "src": "1799:10:0"
                               },
                               {
                                 "attributes": {
@@ -1783,18 +1885,18 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 97,
+                                  "referencedDeclaration": 103,
                                   "type": "bytes32",
                                   "value": "_assetCode"
                                 },
-                                "id": 119,
+                                "id": 125,
                                 "name": "Identifier",
-                                "src": "1723:10:0"
+                                "src": "1810:10:0"
                               }
                             ],
-                            "id": 121,
+                            "id": 127,
                             "name": "IndexAccess",
-                            "src": "1712:22:0"
+                            "src": "1799:22:0"
                           },
                           {
                             "attributes": {
@@ -1802,33 +1904,33 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 111,
+                              "referencedDeclaration": 117,
                               "type": "struct Leaf.Balance memory",
                               "value": "balance"
                             },
-                            "id": 122,
+                            "id": 128,
                             "name": "Identifier",
-                            "src": "1737:7:0"
+                            "src": "1824:7:0"
                           }
                         ],
-                        "id": 123,
+                        "id": 129,
                         "name": "Assignment",
-                        "src": "1712:32:0"
+                        "src": "1799:32:0"
                       }
                     ],
-                    "id": 124,
+                    "id": 130,
                     "name": "ExpressionStatement",
-                    "src": "1712:32:0"
+                    "src": "1799:32:0"
                   }
                 ],
-                "id": 125,
+                "id": 131,
                 "name": "Block",
-                "src": "1600:149:0"
+                "src": "1687:149:0"
               }
             ],
-            "id": 126,
+            "id": 132,
             "name": "FunctionDefinition",
-            "src": "1504:245:0"
+            "src": "1591:245:0"
           },
           {
             "attributes": {
@@ -1837,7 +1939,7 @@
               "isConstructor": false,
               "name": "getBalance",
               "payable": false,
-              "scope": 173,
+              "scope": 179,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -1849,7 +1951,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_public_key",
-                      "scope": 150,
+                      "scope": 156,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -1862,20 +1964,20 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 127,
+                        "id": 133,
                         "name": "ElementaryTypeName",
-                        "src": "1830:7:0"
+                        "src": "1917:7:0"
                       }
                     ],
-                    "id": 128,
+                    "id": 134,
                     "name": "VariableDeclaration",
-                    "src": "1830:19:0"
+                    "src": "1917:19:0"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "_assetCode",
-                      "scope": 150,
+                      "scope": 156,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -1888,19 +1990,19 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 129,
+                        "id": 135,
                         "name": "ElementaryTypeName",
-                        "src": "1851:7:0"
+                        "src": "1938:7:0"
                       }
                     ],
-                    "id": 130,
+                    "id": 136,
                     "name": "VariableDeclaration",
-                    "src": "1851:18:0"
+                    "src": "1938:18:0"
                   }
                 ],
-                "id": 131,
+                "id": 137,
                 "name": "ParameterList",
-                "src": "1829:41:0"
+                "src": "1916:41:0"
               },
               {
                 "children": [
@@ -1908,7 +2010,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 150,
+                      "scope": 156,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -1921,19 +2023,19 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 134,
+                        "id": 140,
                         "name": "ElementaryTypeName",
-                        "src": "1890:4:0"
+                        "src": "1977:4:0"
                       }
                     ],
-                    "id": 135,
+                    "id": 141,
                     "name": "VariableDeclaration",
-                    "src": "1890:4:0"
+                    "src": "1977:4:0"
                   }
                 ],
-                "id": 136,
+                "id": 142,
                 "name": "ParameterList",
-                "src": "1889:6:0"
+                "src": "1976:6:0"
               },
               {
                 "attributes": {
@@ -1952,21 +2054,21 @@
                       "type": "modifier ()",
                       "value": "onlyOwner"
                     },
-                    "id": 132,
+                    "id": 138,
                     "name": "Identifier",
-                    "src": "1871:9:0"
+                    "src": "1958:9:0"
                   }
                 ],
-                "id": 133,
+                "id": 139,
                 "name": "ModifierInvocation",
-                "src": "1871:9:0"
+                "src": "1958:9:0"
               },
               {
                 "children": [
                   {
                     "attributes": {
                       "assignments": [
-                        138
+                        144
                       ]
                     },
                     "children": [
@@ -1974,7 +2076,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "a",
-                          "scope": 150,
+                          "scope": 156,
                           "stateVariable": false,
                           "storageLocation": "storage",
                           "type": "struct Leaf.Account storage pointer",
@@ -1989,14 +2091,14 @@
                               "referencedDeclaration": 19,
                               "type": "struct Leaf.Account storage pointer"
                             },
-                            "id": 137,
+                            "id": 143,
                             "name": "UserDefinedTypeName",
-                            "src": "1901:7:0"
+                            "src": "1988:7:0"
                           }
                         ],
-                        "id": 138,
+                        "id": 144,
                         "name": "VariableDeclaration",
-                        "src": "1901:17:0"
+                        "src": "1988:17:0"
                       },
                       {
                         "attributes": {
@@ -2018,9 +2120,9 @@
                               "type": "mapping(uint256 => struct Leaf.Account storage ref)",
                               "value": "accounts"
                             },
-                            "id": 139,
+                            "id": 145,
                             "name": "Identifier",
-                            "src": "1921:8:0"
+                            "src": "2008:8:0"
                           },
                           {
                             "attributes": {
@@ -2028,27 +2130,27 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 128,
+                              "referencedDeclaration": 134,
                               "type": "uint256",
                               "value": "_public_key"
                             },
-                            "id": 140,
+                            "id": 146,
                             "name": "Identifier",
-                            "src": "1930:11:0"
+                            "src": "2017:11:0"
                           }
                         ],
-                        "id": 141,
+                        "id": 147,
                         "name": "IndexAccess",
-                        "src": "1921:21:0"
+                        "src": "2008:21:0"
                       }
                     ],
-                    "id": 142,
+                    "id": 148,
                     "name": "VariableDeclarationStatement",
-                    "src": "1901:41:0"
+                    "src": "1988:41:0"
                   },
                   {
                     "attributes": {
-                      "functionReturnParameters": 136
+                      "functionReturnParameters": 142
                     },
                     "children": [
                       {
@@ -2091,18 +2193,18 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 138,
+                                      "referencedDeclaration": 144,
                                       "type": "struct Leaf.Account storage pointer",
                                       "value": "a"
                                     },
-                                    "id": 143,
+                                    "id": 149,
                                     "name": "Identifier",
-                                    "src": "2053:1:0"
+                                    "src": "2140:1:0"
                                   }
                                 ],
-                                "id": 144,
+                                "id": 150,
                                 "name": "MemberAccess",
-                                "src": "2053:10:0"
+                                "src": "2140:10:0"
                               },
                               {
                                 "attributes": {
@@ -2110,38 +2212,38 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 130,
+                                  "referencedDeclaration": 136,
                                   "type": "bytes32",
                                   "value": "_assetCode"
                                 },
-                                "id": 145,
+                                "id": 151,
                                 "name": "Identifier",
-                                "src": "2064:10:0"
+                                "src": "2151:10:0"
                               }
                             ],
-                            "id": 146,
+                            "id": 152,
                             "name": "IndexAccess",
-                            "src": "2053:22:0"
+                            "src": "2140:22:0"
                           }
                         ],
-                        "id": 147,
+                        "id": 153,
                         "name": "MemberAccess",
-                        "src": "2053:29:0"
+                        "src": "2140:29:0"
                       }
                     ],
-                    "id": 148,
+                    "id": 154,
                     "name": "Return",
-                    "src": "2046:36:0"
+                    "src": "2133:36:0"
                   }
                 ],
-                "id": 149,
+                "id": 155,
                 "name": "Block",
-                "src": "1895:192:0"
+                "src": "1982:192:0"
               }
             ],
-            "id": 150,
+            "id": 156,
             "name": "FunctionDefinition",
-            "src": "1810:277:0"
+            "src": "1897:277:0"
           },
           {
             "attributes": {
@@ -2150,7 +2252,7 @@
               "isConstructor": false,
               "name": "removeBalanceFromAccount",
               "payable": false,
-              "scope": 173,
+              "scope": 179,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -2162,7 +2264,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_public_key",
-                      "scope": 172,
+                      "scope": 178,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -2175,20 +2277,20 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 151,
+                        "id": 157,
                         "name": "ElementaryTypeName",
-                        "src": "2125:7:0"
+                        "src": "2212:7:0"
                       }
                     ],
-                    "id": 152,
+                    "id": 158,
                     "name": "VariableDeclaration",
-                    "src": "2125:19:0"
+                    "src": "2212:19:0"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "_assetCode",
-                      "scope": 172,
+                      "scope": 178,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -2201,19 +2303,19 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 153,
+                        "id": 159,
                         "name": "ElementaryTypeName",
-                        "src": "2146:7:0"
+                        "src": "2233:7:0"
                       }
                     ],
-                    "id": 154,
+                    "id": 160,
                     "name": "VariableDeclaration",
-                    "src": "2146:18:0"
+                    "src": "2233:18:0"
                   }
                 ],
-                "id": 155,
+                "id": 161,
                 "name": "ParameterList",
-                "src": "2124:41:0"
+                "src": "2211:41:0"
               },
               {
                 "attributes": {
@@ -2222,9 +2324,9 @@
                   ]
                 },
                 "children": [],
-                "id": 158,
+                "id": 164,
                 "name": "ParameterList",
-                "src": "2176:0:0"
+                "src": "2263:0:0"
               },
               {
                 "attributes": {
@@ -2243,21 +2345,21 @@
                       "type": "modifier ()",
                       "value": "onlyOwner"
                     },
-                    "id": 156,
+                    "id": 162,
                     "name": "Identifier",
-                    "src": "2166:9:0"
+                    "src": "2253:9:0"
                   }
                 ],
-                "id": 157,
+                "id": 163,
                 "name": "ModifierInvocation",
-                "src": "2166:9:0"
+                "src": "2253:9:0"
               },
               {
                 "children": [
                   {
                     "attributes": {
                       "assignments": [
-                        160
+                        166
                       ]
                     },
                     "children": [
@@ -2265,7 +2367,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "a",
-                          "scope": 172,
+                          "scope": 178,
                           "stateVariable": false,
                           "storageLocation": "storage",
                           "type": "struct Leaf.Account storage pointer",
@@ -2280,14 +2382,14 @@
                               "referencedDeclaration": 19,
                               "type": "struct Leaf.Account storage pointer"
                             },
-                            "id": 159,
+                            "id": 165,
                             "name": "UserDefinedTypeName",
-                            "src": "2182:7:0"
+                            "src": "2269:7:0"
                           }
                         ],
-                        "id": 160,
+                        "id": 166,
                         "name": "VariableDeclaration",
-                        "src": "2182:17:0"
+                        "src": "2269:17:0"
                       },
                       {
                         "attributes": {
@@ -2309,9 +2411,9 @@
                               "type": "mapping(uint256 => struct Leaf.Account storage ref)",
                               "value": "accounts"
                             },
-                            "id": 161,
+                            "id": 167,
                             "name": "Identifier",
-                            "src": "2202:8:0"
+                            "src": "2289:8:0"
                           },
                           {
                             "attributes": {
@@ -2319,23 +2421,23 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 152,
+                              "referencedDeclaration": 158,
                               "type": "uint256",
                               "value": "_public_key"
                             },
-                            "id": 162,
+                            "id": 168,
                             "name": "Identifier",
-                            "src": "2211:11:0"
+                            "src": "2298:11:0"
                           }
                         ],
-                        "id": 163,
+                        "id": 169,
                         "name": "IndexAccess",
-                        "src": "2202:21:0"
+                        "src": "2289:21:0"
                       }
                     ],
-                    "id": 164,
+                    "id": 170,
                     "name": "VariableDeclarationStatement",
-                    "src": "2182:41:0"
+                    "src": "2269:41:0"
                   },
                   {
                     "children": [
@@ -2379,18 +2481,18 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 160,
+                                      "referencedDeclaration": 166,
                                       "type": "struct Leaf.Account storage pointer",
                                       "value": "a"
                                     },
-                                    "id": 165,
+                                    "id": 171,
                                     "name": "Identifier",
-                                    "src": "2236:1:0"
+                                    "src": "2323:1:0"
                                   }
                                 ],
-                                "id": 166,
+                                "id": 172,
                                 "name": "MemberAccess",
-                                "src": "2236:10:0"
+                                "src": "2323:10:0"
                               },
                               {
                                 "attributes": {
@@ -2398,48 +2500,48 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 154,
+                                  "referencedDeclaration": 160,
                                   "type": "bytes32",
                                   "value": "_assetCode"
                                 },
-                                "id": 167,
+                                "id": 173,
                                 "name": "Identifier",
-                                "src": "2247:10:0"
+                                "src": "2334:10:0"
                               }
                             ],
-                            "id": 168,
+                            "id": 174,
                             "name": "IndexAccess",
-                            "src": "2236:22:0"
+                            "src": "2323:22:0"
                           }
                         ],
-                        "id": 169,
+                        "id": 175,
                         "name": "UnaryOperation",
-                        "src": "2229:29:0"
+                        "src": "2316:29:0"
                       }
                     ],
-                    "id": 170,
+                    "id": 176,
                     "name": "ExpressionStatement",
-                    "src": "2229:29:0"
+                    "src": "2316:29:0"
                   }
                 ],
-                "id": 171,
+                "id": 177,
                 "name": "Block",
-                "src": "2176:87:0"
+                "src": "2263:87:0"
               }
             ],
-            "id": 172,
+            "id": 178,
             "name": "FunctionDefinition",
-            "src": "2091:172:0"
+            "src": "2178:172:0"
           }
         ],
-        "id": 173,
+        "id": 179,
         "name": "ContractDefinition",
-        "src": "281:2087:0"
+        "src": "281:2174:0"
       }
     ],
-    "id": 174,
+    "id": 180,
     "name": "SourceUnit",
-    "src": "0:2369:0"
+    "src": "0:2456:0"
   },
   "compiler": {
     "name": "solc",
@@ -2470,8 +2572,13 @@
       "events": {},
       "links": {},
       "address": "0xcc1e19a83fbab3afa7beaae01fcf8f7e1b9888fe"
+    },
+    "1511993695555": {
+      "events": {},
+      "links": {},
+      "address": "0x4402244ffbd045c8305d250b928320ae11a7781c"
     }
   },
   "schemaVersion": "1.0.1",
-  "updatedAt": "2017-11-29T20:20:08.637Z"
+  "updatedAt": "2017-11-29T22:15:16.005Z"
 }
