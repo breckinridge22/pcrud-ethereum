@@ -43,6 +43,7 @@ contract Leaf {
   // create a new Account
   // but if account already exists throw an error
   function createAccount(uint256 _public_key) onlyOwner {
+    // add account with lumens loaded
     Account memory a = Account(_public_key);
     accounts[_public_key] = a;
   }
