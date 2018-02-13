@@ -5,85 +5,82 @@ var Leaf = artifacts.require("./Leaf.sol");
 contract('Leaf', function(accounts) {
 
   var contract;
+  var public_key = 1;
+  var xlm = "XLM";
+  var default_xlm = 31;
 
-  var goal = 1000;
-  var duration = 10;
+  var code = "USD"
+  var default_usd = 100;
+
+  var new_xlm_amount = 100;
+
   var owner = accounts[0];
 
   beforeEach(function () {
-    return Leaf.new(duration, goal, {from: owner})
+    return Leaf.new({from: owner})
     .then(function(instance){
       contract = instance;
     })
   });
 
-  it("helloworld", function(){
+  it("helloworld", function() {
     assert.strictEqual(true, true, "Hm");
+  });
+
+  it("Should be owned by Owner", function() {
+    return contract.owner({from: owner})
+    .then(function(_owner) {
+      assert.strictEqual(_owner, owner, "Contract is not owned by the owner");
+    });
+  });
+
+  // should create a new account
+  it("Should Create a new Account with default XLM balance", function() {
+    return contract.createAccount(public_key, {from: owner})
+    .then(function() {
+      return contract.getBalance(public_key, xlm, {from: owner})
+      .then(function(_balance) {
+        assert.equal(_balance.toString(10), default_xlm, "Default XLM is incorrect")
+      });
+    });
+  });
+
+  it("Should add a new balance", function() {
+    return contract.createAccount(public_key, {from: owner})
+    .then(function() {
+      return contract.addBalanceToAccount(public_key, code, default_usd, {from: owner})
+      .then(function() {
+        return contract.getBalance(public_key, code, {from: owner})
+        .then(function(_balance) {
+          assert.equal(_balance.toString(10), default_usd, "Balance was not added successfully")
+        });
+      });
+    });
+  });
+
+it("Should update a balance", function () {
+  return contract.createAccount(public_key, {from: owner})
+  .then(function() {
+    return contract.updateBalanceInAccount(public_key, xlm, new_xlm_amount, {from: owner})
+    .then(function() {
+      return contract.getBalance(public_key, xlm, {from: owner})
+      .then(function(_amount) {
+        assert.equal(_amount.toString(10), new_xlm_amount, "Balance was not updated successfully")
+      });
+    });
   });
 
 });
 
+  // should add a new balance
 
 
-// contract('MetaCoin', function(accounts) {
-//   it("should put 10000 MetaCoin in the first account", function() {
-//     return MetaCoin.deployed().then(function(instance) {
-//       return instance.getBalance.call(accounts[0]);
-//     }).then(function(balance) {
-//       assert.equal(balance.valueOf(), 10000, "10000 wasn't in the first account");
-//     });
-//   });
-//   it("should call a function that depends on a linked library", function() {
-//     var meta;
-//     var metaCoinBalance;
-//     var metaCoinEthBalance;
-//
-//     return MetaCoin.deployed().then(function(instance) {
-//       meta = instance;
-//       return meta.getBalance.call(accounts[0]);
-//     }).then(function(outCoinBalance) {
-//       metaCoinBalance = outCoinBalance.toNumber();
-//       return meta.getBalanceInEth.call(accounts[0]);
-//     }).then(function(outCoinBalanceEth) {
-//       metaCoinEthBalance = outCoinBalanceEth.toNumber();
-//     }).then(function() {
-//       assert.equal(metaCoinEthBalance, 2 * metaCoinBalance, "Library function returned unexpeced function, linkage may be broken");
-//     });
-//   });
-//
-//   it("should send coin correctly", function() {
-//     var meta;
-//
-//     //    Get initial balances of first and second account.
-//     var account_one = accounts[0];
-//     var account_two = accounts[1];
-//
-//     var account_one_starting_balance;
-//     var account_two_starting_balance;
-//     var account_one_ending_balance;
-//     var account_two_ending_balance;
-//
-//     var amount = 10;
-//
-//     return MetaCoin.deployed().then(function(instance) {
-//       meta = instance;
-//       return meta.getBalance.call(account_one);
-//     }).then(function(balance) {
-//       account_one_starting_balance = balance.toNumber();
-//       return meta.getBalance.call(account_two);
-//     }).then(function(balance) {
-//       account_two_starting_balance = balance.toNumber();
-//       return meta.sendCoin(account_two, amount, {from: account_one});
-//     }).then(function() {
-//       return meta.getBalance.call(account_one);
-//     }).then(function(balance) {
-//       account_one_ending_balance = balance.toNumber();
-//       return meta.getBalance.call(account_two);
-//     }).then(function(balance) {
-//       account_two_ending_balance = balance.toNumber();
-//
-//       assert.equal(account_one_ending_balance, account_one_starting_balance - amount, "Amount wasn't correctly taken from the sender");
-//       assert.equal(account_two_ending_balance, account_two_starting_balance + amount, "Amount wasn't correctly sent to the receiver");
-//     });
-//   });
-// });
+  // should update a balance
+
+
+  // should get a balance
+
+
+  // should remove a balance
+
+});

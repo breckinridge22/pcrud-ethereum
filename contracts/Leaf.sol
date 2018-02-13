@@ -40,6 +40,7 @@ contract Leaf {
     owner = msg.sender;
   }
 
+
   // create a new Account
   // but if account already exists throw an error
   function createAccount(uint256 _public_key) public onlyOwner {
