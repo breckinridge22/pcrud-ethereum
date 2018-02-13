@@ -72,6 +72,16 @@ it("Should update a balance", function () {
 
 });
 
+it("Should delete a balance", function () {
+  contract.removeBalanceFromAccount(public_key, {from: owner})
+  .then(function(){
+    return contract.getBalance(public_key, xlm, {from:owner})
+    .then(function(_amount){
+      assert.equal(console.log(_amount), NULL, "Balance was not deleted properly")
+    });
+  });
+});
+
   // should add a new balance
 
 
