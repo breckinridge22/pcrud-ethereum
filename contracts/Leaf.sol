@@ -36,13 +36,13 @@ contract Leaf {
    _;
  }
 
-  function Leaf() {
+  function Leaf() public {
     owner = msg.sender;
   }
 
   // create a new Account
   // but if account already exists throw an error
-  function createAccount(uint256 _public_key) onlyOwner {
+  function createAccount(uint256 _public_key) public onlyOwner {
     // add account with lumens loaded
     Account memory a = Account(_public_key);
     accounts[_public_key] = a;
@@ -50,7 +50,7 @@ contract Leaf {
   }
 
   // add a balance to an account
-  function addBalanceToAccount(uint256 _public_key, bytes32 _assetCode, uint256 _amount) onlyOwner {
+  function addBalanceToAccount(uint256 _public_key, bytes32 _assetCode, uint256 _amount) public onlyOwner {
     Balance memory balance = Balance(_assetCode, _amount);
     // check to make sure Account Id exists in accounts
     Account storage a = accounts[_public_key];
@@ -58,26 +58,26 @@ contract Leaf {
   }
 
   // updates a given balance for an account
-  function updateBalanceInAccount(uint256 _public_key, bytes32 _assetCode, uint _amount) onlyOwner{
+  function updateBalanceInAccount(uint256 _public_key, bytes32 _assetCode, uint _amount) public onlyOwner{
     Account storage a = accounts[_public_key];
     Balance memory balance = Balance(_assetCode, _amount);
     a.balances[_assetCode] = balance;
   }
 
   // return the balance of a specific account, assetcode
-  function getBalance(uint256 _public_key, bytes32 _assetCode) onlyOwner returns (uint){
+  function getBalance(uint256 _public_key, bytes32 _assetCode) public view onlyOwner returns (uint){
     Account storage a = accounts[_public_key];
     //require(_index <= a.balances.length);
     // require that the access code is in the mapping
     return a.balances[_assetCode].amount;
   }
 
-  function removeBalanceFromAccount(uint256 _public_key, bytes32 _assetCode) onlyOwner {
+  function removeBalanceFromAccount(uint256 _public_key, bytes32 _assetCode) public onlyOwner {
     Account storage a = accounts[_public_key];
     delete a.balances[_assetCode];
   }
 
-  /*function deleteAccount(uint256 _public_key) onlyOwner {
+  /*function deleteAccount(uint256 _public_key) public onlyOwner {
       delete accounts[_public_key];
   }*/
 }

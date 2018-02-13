@@ -17,17 +17,23 @@ if (typeof web3 !== 'undefined') {
 Leaf.setProvider(web3.currentProvider)
 
 var owner = web3.eth.accounts[0]
-
+console.log(owner)
 Leaf.new({from: owner, gas: 1555000}).then(function(instance) {
+  console.log("Contract Created")
+  console.log(owner)
   //console.log(instance);
-  leaf = instance
-  leaf.createAccount(1, {from: owner})
-  return leaf.getBalance(1, "XLM", {from: owner})
+  //leaf = instance
+  return instance.createAccount.sendTransaction(1, {from: owner})
 }).then(function(result) {
+  console.log("Account Created")
+  return result.getBalance.call(1, "XLM", {from: owner})
+}).then(function(result) {
+  console.log("Tried to get balance")
   // If this callback is called, the transaction was successfully processed.
   console.log(result)
 }).catch(function(e) {
   console.log(e)
+  reject(e)
 })
 
 // Leaf.deployed().then(function(instance) {
